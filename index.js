@@ -5,5 +5,5 @@
 /*global exports, require */
 
 decaf.extend(exports, {
-    PosgreSQL: require('lib/PostgreSQL').PosgreSQL
+    PostgreSQL: require('lib/PostgreSQL').PosgreSQL
 });
