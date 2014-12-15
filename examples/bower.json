@@ -5,8 +5,8 @@
   "ignore": [
   ],
   "dependencies": {
-    "decaf"              : "git://github.com/decafjs/decaf#master",
-    "decaf"              : "git://github.com/decafjs/decaf-postgresql#master"
+    "decaf": "git://github.com/decafjs/decaf#master",
+    "decaf-postgresql": "git://github.com/decafjs/decaf-postgresql#master"
   },
   "devDependencies": {
   }
