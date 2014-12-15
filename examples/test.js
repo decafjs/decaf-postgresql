@@ -4,9 +4,9 @@
 
 var PostgreSQL = require('decaf-postgresql').PostgreSQL,
     sql = new PostgreSQL({
-        user: 'mschwartz',
-        password: '',
-        db: 'mydb'
+        user     : 'mschwartz',
+        password : '',
+        database : 'mydb'
     });
 
 console.dir(sql.getDataRows('select * from version()'));
