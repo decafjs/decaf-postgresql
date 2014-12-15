@@ -12,3 +12,5 @@ user, password, database are required members.
 These others are supported:
 http://jdbc.postgresql.org/documentation/93/connect.html
 
+See examples directory
+
