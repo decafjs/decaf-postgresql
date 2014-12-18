@@ -1,0 +1,13 @@
+{
+  "name": "decaf-postgresql-schema-example",
+  "version": "0.0.1",
+  "main": "test.js",
+  "ignore": [
+  ],
+  "dependencies": {
+    "decaf": "git://github.com/decafjs/decaf#master",
+    "decaf-postgresql": "git://github.com/decafjs/decaf-postgresql#master"
+  },
+  "devDependencies": {
+  }
+}
