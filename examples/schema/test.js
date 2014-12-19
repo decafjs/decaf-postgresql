@@ -21,6 +21,7 @@ Schema.add({
     ]
 });
 
+debugger;
 Schema.putOne('test', {
     b: 'hello',
     c: 11
