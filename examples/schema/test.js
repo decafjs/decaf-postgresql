@@ -17,7 +17,7 @@ Schema.add({
     fields: [
         { name: 'a', type: 'int', autoIncrement: true },
         { name: 'b', type: 'varchar', size: 10 },
-        { name: 'c', type: 'int' }
+        { name: 'd', type: 'int' }
     ],
     primaryKey: 'a'
 });
