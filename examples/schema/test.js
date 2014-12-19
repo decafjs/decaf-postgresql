@@ -18,7 +18,7 @@ Schema.add({
         { name: 'a', type: 'int', autoIncrement: true },
         { name: 'b', type: 'varchar', size: 10 },
         { name: 'd', type: 'int' },
-        { name: 'testCamelCase', type: 'varchar', size: 20 }
+        { name: 'testCamelCasex', type: 'varchar', size: 20 }
     ],
     primaryKey: 'a'
 });
@@ -27,7 +27,7 @@ debugger;
 Schema.putOne('test', {
     b: 'hello',
     c: 11,
-    testCamelCase: 'xyzzy'
+    testCamelCasex: 'xyzzy'
 });
 
 console.dir(Schema.find('test', {}));
