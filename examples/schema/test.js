@@ -15,10 +15,11 @@ global.SQL = new PostgreSQL({
 Schema.add({
     name: 'test',
     fields: [
-        { name: 'a', type: 'int', autoIncrement: true, primaryKey: true },
+        { name: 'a', type: 'int', autoIncrement: true },
         { name: 'b', type: 'varchar', size: 10 },
         { name: 'c', type: 'int' }
-    ]
+    ],
+    primaryKey: 'a'
 });
 
 debugger;
