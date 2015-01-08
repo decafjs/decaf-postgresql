@@ -1,16 +1,22 @@
 decaf-postgresql
 ================
 
-postgresql interface for decafjs
+[PostgreSQL](http://www.postgresql.org/) interface for [decafjs](https://github.com/decafjs).
 
-createdb --encoding=utf8 dbname
+To use this extension, first create a PostgreSQL database with UTF8 encoding:
 
-PosgreSQL consructor config options:
+    createdb --encoding=utf8 mydb
 
-user, password, database are required members.
+PostgreSQL constructor config options:
 
-These others are supported:
-http://jdbc.postgresql.org/documentation/93/connect.html
+    var PostgreSQL = require('decaf-postgresql').PostgreSQL,
+    sql = new PostgreSQL({
+        user     : 'postgres',
+        password : '',
+        database : 'mydb'
+    });
 
-See examples directory
+The user, password, and database arguments are required. All of the (options supported by PostgreSQL)[http://jdbc.postgresql.org/documentation/93/connect.html] are also supported.
+
+See the examples directory for more information.
 
